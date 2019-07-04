@@ -1,0 +1,169 @@
+body{
+    background: antiquewhite;
+    height:4600px;
+}
+
+/* foreground (balloons/landscape)*/
+div#parallax-bg-1{
+    position: fixed;
+    width: 1200px;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+    z-index: 1;
+}
+/* background middle layer*/
+div#parallax-bg-2{
+    position: fixed;
+    width: 1200px;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+    z-index: 2;
+}
+/* background layer */
+div#parallax-bg-3{
+    position: fixed;
+    width: 960px;
+    top: 0;
+    left: 50%;
+    margin-left: -470px;
+    z-index: 3;
+}
+/* foreground */
+div#parallax-bg-3 div{
+    background-repeat:no-repeat;
+    position:absolute;
+    display:block;
+    overflow:hidden;
+}
+div#bg-3-1{
+    background:url('https://images.wsj.net/im-44452?width=620&aspect_ratio=1.5');
+    width:529px;
+    height:757px;
+    top:-100px;
+    right:100px;
+}
+div#bg-3-2{
+    background:url('shutdowncloud.png');
+    width:2000px;
+    height:883px;
+    top:450px;
+    right:-500px;
+}
+div#bg-3-3{
+    background:url('http://www.tucsonsentinel.com/files/entryimages/09152015_CCA_PMI-1535_1_5_1_2.jpg');
+    width:1046px;
+    height:713px;
+    top:1800px;
+    right:240px;
+}
+div#bg-3-4{
+    background:url('immigrant death in custody.png');
+    width:1104px;
+    height:684px;
+    top:2800px;
+    right:0px;
+
+}
+
+div#bg-3-5{
+    background: url('https://cdn.pixabay.com/photo/2013/07/12/19/16/newspaper-154444_960_720.png');
+    width: 1104px;
+    height: 684px;
+    top: 3800px;
+    right: 0px;
+}
+/* middle layer clouds */
+div#parallax-bg-2 div{
+    background:url('https://cdn-images-1.medium.com/max/480/1*jbXNuDJH3G09f3pUQyCmMA.png');
+    background-repeat:no-repeat;
+    position:absolute;
+    display:block;
+    width:488px;
+    height:300px;
+    overflow:hidden;
+}
+
+div#bg-2-1{
+    top:100px;
+    left:-310px;
+}
+div#bg-2-2{
+    top:270px;
+    right:-70px;
+}
+div#bg-2-3{
+    top:870px;
+    left:-300px;
+}
+div#bg-2-4{
+    top:1120px;
+    right:-130px;
+}
+div#bg-2-5{
+    top:1620px;
+    left:140px;
+}
+div#bg-2-6{
+    top:720px;
+    left:340px;
+}
+
+/*background layer clouds */
+div#parallax-bg-1 div{
+    background-repeat:no-repeat;
+    position:absolute;
+    display:block;
+    width:488px;
+    height:400px;
+    overflow:hidden;
+}
+div#bg-1-1{
+    background:url('https://cdn-images-1.medium.com/max/480/1*jbXNuDJH3G09f3pUQyCmMA.png');
+    top:200px;
+    right:450px;
+    height: 400px;
+}
+div#bg-1-2{
+    background:url('https://cdn1.iconfinder.com/data/icons/twitter-ui-colored/48/JD-24-512.png');
+    top:420px;
+    left:0px;
+    height: 400px;
+}
+div#bg-1-3{
+    background:url('https://cdn1.iconfinder.com/data/icons/twitter-ui-colored/48/JD-24-512.png');
+    top:850px;
+    right:-290px;
+    height: 400px;
+}
+div#bg-1-4{
+    background:url('https://cdn1.iconfinder.com/data/icons/twitter-ui-colored/48/JD-24-512.png');
+    top:1350px;
+    left:200px;
+    height: 400px;
+}
+div#bg-1-5{
+    background:url('https://cdn-images-1.medium.com/max/480/1*jbXNuDJH3G09f3pUQyCmMA.png');
+    top:1200px;
+    left:-200px;
+    height: 400px;
+}
+.back-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.back-icon__row {
+    height: 10px;
+    width: 30px;
+    display: flex;
+}
+.back-icon__elem {
+    height: 8px;
+    width: 8px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    background: deepskyblue;
+    border-radius: 38%;
+}
